@@ -8,7 +8,7 @@ class SmartPhone  @Inject constructor(val battery: Battery, val simCard: SIMCard
     init {
         battery.getPower()
         simCard.getConnection()
-        memoryCard.getSpaceAvailablity()
+        memoryCard.getSpaceAvailability()
         Log.i("MYTAG", "SmartPhone Constructed")
     }
 

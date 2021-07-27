@@ -1,7 +1,7 @@
 package com.anushka.didemo
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
 private lateinit var smartPhone: SmartPhone
@@ -10,7 +10,9 @@ private lateinit var smartPhone: SmartPhone
         setContentView(R.layout.activity_main)
 
         DaggerSmartPhoneComponent.create()
-            .getSmartPhone().memoryCard.getSpaceAvailablity()
+            .getSmartPhone().memoryCard.getSpaceAvailability()
+
+
 
 //        val smartPhone = SmartPhone(
 //            Battery(),

@@ -8,7 +8,7 @@ class MemoryCard {
         Log.i("MYTAG","Memory Card Constructed")
     }
 
-    fun getSpaceAvailablity(){
+    fun getSpaceAvailability(){
         Log.i("MYTAG","Memory space available")
     }
 }
